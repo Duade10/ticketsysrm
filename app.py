@@ -64,7 +64,7 @@ def send_request(prompt):
         "sysMsg": "You are a happy helpful assistant"
     }
     headers = {
-        "x-rapidapi-key": "9c44606274msh461337b0faf1e96p178a7ajsndacda60bedea",
+        "x-rapidapi-key": GPT_KEY,
         "x-rapidapi-host": "infinite-gpt.p.rapidapi.com",
         "Content-Type": "application/json"
     }
